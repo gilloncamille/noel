@@ -21,11 +21,12 @@ body {
 
 #gift {
   position: absolute;
-  left: 50px;
-  top: 400px;
+  left: 10px;
+  top: 300px;
   z-index: 2;
 }
 
-.guff {
+.guff img {
+  width: 5000px;
   z-index: -1;
 }
