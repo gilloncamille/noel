@@ -1,0 +1,31 @@
+body {
+  position: relative;
+}
+.cat {
+  position: static;
+}
+
+.cat img {
+  max-width: 1360px;
+}
+
+.texte {
+  position: absolute;
+  left: 50px;
+  top: 60px;
+  z-index: 1;
+  font-size: 200px;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#gift {
+  position: absolute;
+  left: 50px;
+  top: 400px;
+  z-index: 2;
+}
+
+.guff {
+  z-index: -1;
+}
